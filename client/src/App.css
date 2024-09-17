@@ -1,0 +1,28 @@
+.navbar{
+  background-color: aqua;
+  color: black;
+}
+
+.App{
+ height: 100vh;
+}
+#submit{
+  background-color: rgb(64, 202, 0);
+  color: white;
+  position: absolute;
+  top:55%;
+  left: 6%;
+  font-size:large ;
+  font-weight: 500;
+  border-style: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  height: 4%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+ 
+  
+}
+#submit:hover{
+  background-color: rgb(0, 38, 255);
+ 
+}
