@@ -1,0 +1,19 @@
+
+.NAVX{
+ background-color:  rgb(202, 243, 255);
+ 
+ top: 0%;
+ left: 0%;
+ width: 100%;
+}
+
+#body{
+    width: 99vw;
+    height: 99vh;
+    background-color: white;
+}
+#btn{
+    position: relative;
+    left:27.5vw;
+    top:3%;
+}
