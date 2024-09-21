@@ -1,5 +1,62 @@
 #Login{
+    height: 40vh;
+    width: 40vw;
+    background-color:rgb(200, 191, 255);
+    position: relative;
+    top:20%;
+    left: 10%;
+    box-shadow: 4px 8px 20px 1px rgba(0, 0, 0, 0.6);
+
+}
+
+#imglog{
+
+    height: 100%;
+    width: 100%;
+}
+#box{
     height: 100vh;
-    width: 100vw;
-    background-color: black;
+    width: 99vw;
+    background-color: aliceblue;
+    
+}
+#content{
+    height: 100%;
+    width: 49%;
+    
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;
+    padding-left: 3%;
+    font-size:medium ;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 2.5%;
+
+    
+    
+    
+}
+#img{
+    height: 98%;
+    width: 50%;
+    background-color: white;
+    margin-left: 50%;
+    position: absolute;
+    bottom: 1%;
+    right: 0.5%;
+    
+}
+#tag{
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 30%;
+}
+.txt{
+    width: 80%;
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    border-style: none;
+    border-radius: 0.2cm;
+    height: 120%;
+
 }
