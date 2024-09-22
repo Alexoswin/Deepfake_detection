@@ -28,7 +28,7 @@
     flex-direction: column;
     padding-top: 1%;
     padding-left: 3%;
-    font-size:medium ;
+    font-size:1.6vh ;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     gap: 2.5%;
@@ -45,18 +45,53 @@
     position: absolute;
     bottom: 1%;
     right: 0.5%;
+    background-size: cover;
+    
     
 }
 #tag{
-    font-size: x-large;
+    font-size: 2.5vh;
     font-weight: bold;
     margin-left: 30%;
+    margin-top: 2%;
+
 }
 .txt{
     width: 80%;
-    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.6);
     border-style: none;
     border-radius: 0.2cm;
     height: 120%;
 
 }
+.lBut{
+    border-style: none;
+    box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.6);
+    margin-right: 20%;
+
+    width:max-content;
+    
+    background-color: blue;
+    color: white;
+    padding-top: 1%;
+    
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.padd{
+    margin-top: 3.5vh;
+}
+
+.lBut:hover{
+    background-color: rgb(4, 197, 52);
+}
+.txt:hover{
+   
+    background-color: rgb(236, 236, 236);
+}
+@media only screen and (max-width: 768px) {
+    #Login {
+      display: none;
+    }
+  }
+  
